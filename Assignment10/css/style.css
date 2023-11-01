@@ -3,8 +3,6 @@ body{
 }
 .main-container {
     
-    border-style: solid;
-    border-width: 10px;
     border-color: navyblue;
     padding: 10px;
     background : lightgrey;
