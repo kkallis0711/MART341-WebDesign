@@ -1,1 +1,77 @@
-
+body{
+  font-family: 'Roboto';
+  font-style: medium;
+}
+header{
+  position: fixed
+  background-color: light-green;
+  font-family: 'Roboto';
+  color: beige;
+  text-align: left;
+  margin: 1;
+  height: 3em;
+  width: 100%;
+}
+.menu-item{
+  display: inline-block;
+  margin: 0 0;
+  min-width: 6em;
+  text-align: left;
+  background-color: dark-green;
+  padding:0.5em 0;
+}
+.menu-item a {
+  color: dark-green;
+  text-decoration: none;
+}
+.menu-item: hover {
+  background-color: dark-green;
+}
+.dropdown a {
+  color: beige;
+  text-decoration: none;
+}
+.dropdown-content {
+  display; none;
+  position: absolute;
+  border: 2px solid light green;
+  margin: 0;
+  margin-top: 1em;
+  color: beige;
+  background-color: dark-green;
+  z-index:1;
+}
+.dropdown-content a {
+  color: beige;
+}
+.dropdown: hover .dropdown-content {
+  display: block;
+}
+.dropdown-item {
+  display: block;
+  text-align: center:
+  margin: 0;
+  padding: 1em;
+  min-width: 6em;
+}
+.dropdown-item: hover, .dropdown-item: hover a {
+  color: beige;
+  background-color: dark-green;
+}
+.mainimage {
+  float: right;
+}
+.directionImage {
+  float: right;
+  width 400px;
+  height:200px;
+  margin: 0 0 0 80px;
+}
+.direction {
+  height: 200px;
+  width: 70%;
+  background-color: beige;
+  margin: 3em
+  padding: 1em
+  overflow: scroll;
+} 
