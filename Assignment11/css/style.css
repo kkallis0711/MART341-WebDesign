@@ -9,20 +9,20 @@ div{
   font-family: Roboto;
   font-size: 80px;
   text-shadow: -4px 1px 0 #000;
-  color: dark-maroon;
+  color: darkblue;
   background-color: white;
   height: 100px
   text-align: center;
 }
 
-#neuromirror{
+#neuralink{
   font-family: Montserrat;
   font-weight: 700;
 }
 
-#neuromirrir:hover:after {
+#neuralink:hover:after {
   content: "      ";
-  color: grey;
+  color: white;
   font-style: italic;
 }
 
@@ -31,7 +31,7 @@ div{
 }
 
 #uncanny:hover {
-   background: url("../images/      ");
+   background: url("../images/background.jpg");
   float: right;
   display: block;
   width:500px
