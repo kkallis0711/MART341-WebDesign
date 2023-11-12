@@ -1,1 +1,47 @@
+div{
+  text-align: left;
+  font-family: BodoniMono;
+  font-style: normal;
+  margin: 10px;
+}
 
+.title{
+  font-family: Roboto;
+  font-size: 80px;
+  text-shadow: -4px 1px 0 #000;
+  color: dark-maroon;
+  background-color: white;
+  height: 100px
+  text-align: center;
+}
+
+#neuromirror{
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+#neuromirrir:hover:after {
+  content: "      ";
+  color: grey;
+  font-style: italic;
+}
+
+#uncanny {
+ font-weight: 500;
+}
+
+#uncanny:hover {
+   background: url("../images/      ");
+  float: right;
+  display: block;
+  width:500px
+  height:400px
+}
+
+#uppercase {
+  text-transform: uppercase;
+}
+
+img{
+  padding: 10px 10px;
+}
