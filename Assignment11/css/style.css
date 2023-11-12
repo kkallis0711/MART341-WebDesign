@@ -21,16 +21,16 @@ div{
 }
 
 #neuralink:hover:after {
-  content: "      ";
+  content: "Here you can see a graph of Neuralink's timeline in development.";
   color: white;
   font-style: italic;
 }
 
-#uncanny {
+#background {
  font-weight: 500;
 }
 
-#uncanny:hover {
+#background:hover {
    background: url("../images/background.jpg");
   float: right;
   display: block;
