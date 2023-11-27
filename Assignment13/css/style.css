@@ -70,7 +70,6 @@ header{
   padding: 0.5em 1em 0.5em 1em;
   min-width: 5.9em;
 }
-
 .dropdown-item:hover, .dropdown-item:hover a {
   color: beige;
   background-color: #a2a2a2;
