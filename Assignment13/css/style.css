@@ -1,1 +1,151 @@
+body{
+  background-color: white;
+}
+div{
+  text-align: left;
+  font-family: Roboto;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+h1, h2, h3{
+  text-align: center;
+  font-family: Roboto;
+}
+.opening-paragraph{
+  color: light-green;
+  font-size: 15px;
+  text-indent: 10px;
+  font-weight: 600;
+}
+.second-paragraph{
+  font-size: 13px;
+} 
+header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: beige;
+  font-family: Roboto;
+  text-transformation: uppercase;
+  margin-top: 0px;
+  height: 5em;
+  width: 100%;
+  text-align: left;
+} 
+.menu-item{
+  display: inline-block;
+  margin: 1em .2em;
+  min-width:5em;
+  text-align: center;
+  background-color: white;
+  padding: 0.5em 1em;
+}
+.menu-item a{
+  color: dark-green;
+  text-decoration: none;
+}
+.menu-item:hover{
+  background-color: beige;
+}
+.dropdown{
+  display: inline-block;
+}
+.dropdown-content{ 
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: light-green;
+  z-index: 1;
+}
+.dropdown-content a{
+  color: light-green;
+} 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  min-width: 5.9em;
+}
 
+.dropdown-item:hover, .dropdown-item:hover a {
+  color: beige;
+  background-color: #a2a2a2;
+}
+.mainimage{
+  float: left;
+  content:url("../images/downtownauburn.jpg");
+}
+@media only screen and (min-width: 650px) {
+  .mainimage{
+      content:url("../images/downtownauburn.jpg");
+  }
+}
+.secondimage{
+  float: left;
+  content:url("../images/auburnwinery.jpg");
+}
+@media only screen and (min-width: 650px) {
+  .secondimage{
+      float:right;
+      content:url("../images/auburnwinery.jpg");
+  }
+}
+.thirdimage{
+    margin: auto;
+    content:url("../images/auburnbridge.jpg");
+}
+@media only screen and (min-width: 650px) {
+  .thirdimage{
+      margin: auto;
+      content:url("../images/auburnbridge.jpg");
+  }
+}
+.fourthimage{
+    margin:auto;
+    content:url("../images/hikingauburn.jpg");
+}
+@media only screen and (min-width: 650px) {
+  .fourthimage{
+      margin: auto;
+      content:url("../images/hikingauburn.jpg");
+  }
+}
+.fifthimage{
+  margin:auto;
+  content:url("../images/housingauburn.jpg");
+}
+@media only screen and (min-width: 650px) {
+  .fifthimage{
+      margin: auto;
+      content:url("../images/housingauburn.jpg");
+  }
+}
+.sixthimage{
+  margin:auto;
+  content:url("../images/restaurantsauburn.jpg");
+}
+@media only screen and (min-width: 650px) {
+  .sixthimage{
+      margin: auto;
+      content:url("../images/restaurantsauburn.jpg");
+  }
+}
+.seventhimage{
+  margin:auto;
+  content:url("../images/shoppingauburn.jpg");
+}
+@media only screen and (min-width: 650px) {
+  .seventhimage{
+      margin: auto;
+      content:url("../images/shoppingauburn.jpg");
+  }
+}
+.col-12 {width: 100%;}  
+.contactus{
+  width:50%;
+  margin-left: 25%;    
+}
