@@ -10,3 +10,18 @@ ctx.strokeText(Picture This', 100, 600);
 ctx.font = '20pt Bodoni';
 ctx.fillStyle = 'black';
 ctx.fillText('by Alaina Urquhart', 200, 600);
+
+// Fetch book details from an API
+fetch('https://www.goodreads.com/en/book/show/60672388')
+.then(response => response.json())
+.then(data => {
+
+// Display book information
+document.getElementById('book-title').innerText = data.title;
+document.getElementById('book-author').innerText = data.author;
+document.getElementById('book-rating').innerText = data.rating;
+document.getElementById('book-review').innerText = data.review;
+  })
+.catch(error => {
+  console.error('Error fetching book details:', error);
+  });
