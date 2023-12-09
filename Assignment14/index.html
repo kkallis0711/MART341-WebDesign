@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Book Review</title>
-  <link rel="stylesheet" href="styles.css">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Cory McKague">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <link rel="stylesheet" text="text/css" href="./css/bootstrap.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Book Review</h1>
-    <div class="book-info">
-      <h2 id="book-title"></h2>
-      <p><span>Author:</span> <span id="book-author"></span></p>
-      <p><span>Rating:</span> <span id="book-rating"></span></p>
+<nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </div>
-    <div class="review">
-      <h2>Review</h2>
-      <p id="book-review"></p>
+</nav>
+ <div class="row">
+    <div class="col-4">
+    <canvas id="myCanvas" height="600" width="500"></canvas>
+    <script src="js/main.js"></script>
     </div>
-  </div>
-  <script src="main.js"></script>
+    <div class="col-4"> 
+<div class="row">
+    <div class="col-4">
+    <img src="../images/tbatw.jpg" height="600" width="500">
+    </div>
+<p>
+  Alaina Urquhart's The Butcher and the Wren is a debut thriller told from the dueling perspectives of a notorious serial killer and the medical examiner following where the trail of victims leads. 
+  
+  I personally wasn’t a huge fan of the ending, but hope it points to more novels in Ms Urquhart’s future. As a debut, it’s promising—again, I found that mid-book twist delightfully astonishing—and I’m hoping to read more from her as her writing career and experience grows.
+</p>
+    </div>
+ </div>
 
-
-
-
+<!-- UIkit JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/js/uikit-icons.min.js"></script>
 <div>
   <canvas id="myCanvas" height="300" width="300"></canvas>
   <script src="javascript/main.js"></script>
